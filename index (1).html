@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>I'm Sorry 😿</title>
+  <style>
+    body {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background: linear-gradient(135deg, #ffe6f0, #fff5cc);
+      text-align: center;
+      padding: 40px;
+    }
+    .card {
+      background: white;
+      border-radius: 20px;
+      padding: 30px;
+      max-width: 600px;
+      margin: auto;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    }
+    h1 {
+      font-size: 2.5em;
+    }
+    p {
+      font-size: 1.2em;
+      line-height: 1.7;
+    }
+    .cat-img {
+      width: 260px;
+      margin: 20px auto;
+    }
+    button {
+      background: #ff99c8;
+      border: none;
+      border-radius: 25px;
+      padding: 12px 28px;
+      font-size: 1.1em;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    button:hover {
+      background: #ff6fae;
+    }
+    .hidden {
+      display: none;
+      margin-top: 25px;
+      font-size: 1.2em;
+    }
+    .hearts {
+      font-size: 1.8em;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h1>I'm Really Sorry 😿</h1>
+
+    <img src="sad-cat.png" alt="Crying Cat" class="cat-img">
+
+    <p>
+      Hey my love 💕<br>
+      This sad little cat is exactly how I feel right now 🐱💔<br>
+      I know I hurt you, and I’m truly sorry from the bottom of my heart 😔
+    </p>
+
+    <p>
+      You mean the world to me 🌍💖<br>
+      Your smile is my favorite thing, and seeing you upset hurts me more than anything.<br>
+      I promise to listen better, care more, and love you harder every single day 😽🐾
+    </p>
+
+    <p>
+      Please forgive me? 🥺<br>
+      This cat hasn’t stopped crying and won’t be happy without you 😭🐈
+    </p>
+
+    <button onclick="showLove()">Click here if you forgive me 💗</button>
+
+    <div id="love" class="hidden">
+      <p>
+        YAY!!! 😻🎉<br>
+        Look! The cat is happy again because of you 💕<br>
+        Thank you for forgiving me, my favorite person 🥹
+      </p>
+
+      <p>
+        I promise to protect your heart, respect your feelings,<br>
+        and remind you every day how special you are to me 💖
+      </p>
+
+      <p>
+        I love you more than cats love naps, treats, and cardboard boxes combined 🐱📦😹
+      </p>
+
+      <div class="hearts">😸💞🐾💖🐱</div>
+    </div>
+  </div>
+
+  <script>
+    function showLove() {
+      document.getElementById('love').style.display = 'block';
+    }
+  </script>
+
+</body>
+</html>
